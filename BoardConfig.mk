@@ -24,7 +24,6 @@ LOCAL_PATH:= $(call my-dir)
 # against the traditional rules of inheritance).
 # for now
 USE_CAMERA_STUB := true
-WITH_DEXPREOPT := true
 TARGET_NO_BOOTLOADER := true
 
 TARGET_PREBUILT_RECOVERY_KERNEL := device/samsung/cooper/recovery_kernel
@@ -61,7 +60,6 @@ WIFI_DRIVER_MODULE_NAME     := ar6000
 
 WITH_JIT := true
 ENABLE_JSC_JIT := true
-WITH_DEXPREOPT := true
 
 TARGET_LIBAGL_USE_GRALLOC_COPYBITS := true
 
