@@ -56,7 +56,7 @@ PRODUCT_PACKAGES += \
 # proprietary side of the device
 $(call inherit-product-if-exists, vendor/samsung/cooper/cooper-vendor.mk)
 
-#DISABLE_DEXPREOPT := false
+DISABLE_DEXPREOPT := false
 
 PRODUCT_COPY_FILES += \
     device/samsung/cooper/files/usr/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl \
